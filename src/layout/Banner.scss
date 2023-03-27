@@ -1,0 +1,66 @@
+.banner {
+    position :relative;
+    min-height: 180px; 
+    margin: auto;
+    border-radius: 0.8rem;
+    display: grid;
+    place-items: center;
+    Color:white;
+    background-size: cover;
+
+    margin-bottom: 2rem;
+     
+    
+    h2 {
+        position :absolute;
+        font-weight: 500;
+    }
+
+    img {
+      
+    position: relative;
+    height: 223px;   
+    width: 100%;
+
+    inset: 0;
+    
+    object-fit: cover;
+    border-radius: 25px; 
+    box-shadow: rgba(149, 157, 165 ,0.20) 0px 8px 24px;
+    opacity: 2;
+    transition:opacity 0.5s ease-in-out;
+    filter: brightness(0.7);
+
+    }
+   
+    @media screen and (width <= 768px) {
+        .img{
+    
+            flex-basis: 100%;
+            
+        }
+
+        & h2 {
+          padding-right: 4rem;
+          padding-left: 1rem;
+        }
+
+
+    
+
+
+
+        
+    
+    }
+
+}
+
+.banner ::before {
+
+    position :absolue;
+    content :"";
+    inset :0; /* top left bottom right = 0*/
+   /* background-color : rgba(0,-0,-0,-0.5);*/
+    /*border-radius: 1rem;*/
+}

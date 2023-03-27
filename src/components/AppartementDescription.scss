@@ -1,0 +1,57 @@
+@use "../scss/variables.scss" as *;
+
+
+.appartement_description {
+
+    margin-bottom: 1rem;
+    flex-basis: 50%; /* ne fonctionne pas pour l'instant*/
+    overflow: hidden;
+    p{
+        margin-block : 0;
+    }
+
+    .description_header
+    {
+    background-color: $color_Principale;
+    color : $color_white;
+    padding : 0.4em 1em;
+    border-radius: 0.7rem;
+    padding-inline: 1rem;
+    display :flex;
+    justify-content: space-between;
+      i {
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+    }
+
+    .description_content {
+
+        background-color: $color_BackGrid;
+        color :$color_Principale;
+        padding : 1rem;
+        border-radius: 0 0 1rem 1rem;
+        position:relative;
+        z-index: -1;
+        top:-0.3rem;
+        animation: slide-in 0.5s ease-in-out;
+    }
+
+    @keyframes slide-in {
+      0%{
+        transform:translateY(-100%) /*on peux remplacer par from */
+      }
+      100% {
+        transform :translateX(0)   /*cette partie peut-etre retirée*/
+      }
+      
+    }
+
+    @keyframes slide-out {
+      to {
+        transform :translateY(-100%)
+      }
+    }
+
+    
+}

@@ -1,0 +1,41 @@
+@use "../scss/variables.scss";
+
+.navbar {
+    display :flex;
+    
+    align-items: center;
+    padding: 0.2rem;
+    gap :2rem;
+    color : var(--red);
+
+    @media screen and (width <= 768px){
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 12px;
+        justify-items: stretch;
+      }
+    
+    & > *:first-child {
+ 
+        margin-right: auto;
+    }
+
+    & a {
+        text-decoration: none;
+        color : #ff6060;
+        white-space: nowrap;
+
+        /*color : $colorPrincipale;*/
+
+        &.active {
+            text-decoration: underline;
+        }
+
+        &:hover {
+
+            /*cursor:hand;*/
+           text-decoration:underline;
+        }
+        
+    }
+}

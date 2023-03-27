@@ -1,0 +1,10 @@
+
+.about_container {
+    padding-inline: 3rem;
+    
+
+    @media screen and (width <= 768px){
+       padding:0;
+        
+      }
+}

@@ -1,0 +1,33 @@
+@use '../scss/variables.scss' as *;
+.error-page {
+    color :$color_Principale;
+    text-align: center;
+
+  
+        
+    
+
+    h1 {
+        font-size: 288px;
+        margin-bottom: 2rem;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 36px;
+        font-weight:500;
+        margin-bottom: 12rem;
+    }
+    
+    a {
+        color :$color_Principale;
+    }
+    
+    @media screen and (width <= 768px){
+      
+        h1 {
+            font-size: 96px;
+        }
+
+}
+}
