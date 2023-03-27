@@ -4,6 +4,7 @@ import AppartementDescription from '../components/AppartementDescription.jsx'
 import './About.scss'
 import { useDescriptionAbout } from '../hooks/useDescriptionAbout'
 
+
 function About() {
 
 const appartmentdescription = useDescriptionAbout();
