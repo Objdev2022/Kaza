@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './AppartementGrid.scss';
 
-import AppartementCard from './AppartementCard.jsx'
+import AppartementCard from '../Appt_Card/AppartementCard';
+
 
 /* récupération des infos à partir du fichier db.json*/
 

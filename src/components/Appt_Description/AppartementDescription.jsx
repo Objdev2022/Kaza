@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./AppartementDescription.scss";
 
 function AppartementDescription(props) {
-  const [isContentVisible, setIsContentVisible] = useState(true);
+  const [isContentVisible, setIsContentVisible] = useState(false);
   
   const showContent = () => {
    

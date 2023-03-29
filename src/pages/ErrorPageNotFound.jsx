@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../components/Navbar.jsx';
-import Main from '../layout/Main.jsx';
+import Navbar from '../components/Navbar/Navbar.jsx';
+import Main from '../layout//Main/Main.jsx';
 import {Link } from 'react-router-dom';
-import Footer from '../layout/Footer';
+import Footer from '../layout/Footer/Footer.jsx';
 
 import './ErrorPageNotFound.scss';
 

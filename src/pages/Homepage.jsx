@@ -1,8 +1,7 @@
 import React from 'react'
 import './Homepage.scss'
-import Banner from '../layout/Banner.jsx'
-import AppartementGrid from '../components/AppartementGrid.jsx'
-
+import Banner from '../layout/Banner/Banner.jsx'
+import AppartementGrid from '../components/Appt_Grid/AppartementGrid.jsx';
 
 function Homepage() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import Appartement_Banner from '../components/Appartement_Banner'
-import AppartementDescription from '../components/AppartementDescription.jsx'
+import Appartement_Banner from '../components/Appt_Banner/Appartement_Banner'
+import AppartementDescription from '../components/Appt_Description/AppartementDescription.jsx'
 import './About.scss'
 import { useDescriptionAbout } from '../hooks/useDescriptionAbout'
 

@@ -1,7 +1,9 @@
-import AppartementDescription from '../components/AppartementDescription';
+import AppartementDescription from '../components/Appt_Description/AppartementDescription';
 import "./AppartementPage.scss";
-import Appartement_Banner from '../components/Appartement_Banner';
-import Appartement_Header from '../components/Appartement_Header.jsx';
+//import Appartement_Banner from '../components/Appartement_Banner';
+import Appartement_Banner from '../components/Appt_Banner/Appartement_Banner'
+
+import Appartement_Header from '../components/Appt_Header/Appartement_Header.jsx';
 import { useAppartment } from '../hooks/useAppartment.jsx';
 
 function AppartementPage() {
